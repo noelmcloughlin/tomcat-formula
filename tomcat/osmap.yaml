@@ -52,7 +52,7 @@ Arch:
 MacOS:
   service: homebrew.mxcl.tomcat
   ver: 8
-  pkg: tomcat-8
+  pkg: tomcat
   native_pkg: tomcat-native
   conf_dir: /usr/local/opt/tomcat/libexec/conf
   user: nobody
