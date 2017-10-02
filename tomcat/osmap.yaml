@@ -49,3 +49,15 @@ Arch:
   catalina_pid: /var/run/tomcat8.pid
   catalina_base: /usr/share/tomcat8
   catalina_home: /usr/share/tomcat8
+MacOS:
+  service: homebrew.mxcl.tomcat
+  ver: 8
+  pkg: tomcat-8
+  native_pkg: tomcat-native
+  conf_dir: /usr/local/opt/tomcat/libexec/conf
+  user: nobody
+  group: nobody
+  java_home: /usr/lib/java
+  jvm_tmp: /usr/local/opt/tomcat/libexec/temp
+  catalina_base: /usr/local/opt/tomcat/libexec
+  catalina_home: /usr/local/opt/tomcat/libexec
